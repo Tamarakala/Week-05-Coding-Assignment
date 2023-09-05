@@ -36,7 +36,7 @@ class Product {
       }
       alert(`You can add another item to the cart`);
     }
-  // In this part the "start"  is a method, which is a main program loop and provides the menu options.
+  // In this part the "start" is a method, which is a main program loop and provides the menu options.
 
 
     showCatalog() {
@@ -47,9 +47,9 @@ class Product {
         3) delete item
         `);
     }
-  // The "showCatalog" method shows the manu and returns the user's choice as string obtained via 
-  // prompt function.
+  // The "showCatalog" method shows the menu of options using the "prompt' function and returns the user's choice as string.
 
+  
     showProductList() {
       let result = '';
       for (let i = 0; i < this.productList.length; i++) {
